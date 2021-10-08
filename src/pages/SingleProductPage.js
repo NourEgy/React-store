@@ -44,17 +44,16 @@ const SingleProductPage = () => {
     return <Error />
   }
         
-  const { category ,
-          colors ,
+  const { 
           company ,
           description ,
           id: SKU ,
-          featured,
+     
           images,
           price ,
           stock,
           stars,
-          shipping,
+
           reviews,
           name } = product;
       

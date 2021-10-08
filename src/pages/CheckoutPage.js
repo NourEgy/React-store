@@ -1,16 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { PageHero, StripeCheckout } from '../components'
-// extra imports
-import { useCartContext } from '../context/cart_context'
-import { Link } from 'react-router-dom'
+import { PageHero } from '../components'
 
 const CheckoutPage = () => {
   return (
     <main>
     <PageHero title="Checkout" />
-      <Wrapper className="page">
-        <h1>CheckoutPage</h1>
+      <Wrapper className="page section-center">
+        <h1>Checkout Page</h1>
       </Wrapper>
     </main>
   )

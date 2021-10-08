@@ -9,15 +9,15 @@ import { UserProvider } from './context/user_context'
 import { Auth0Provider } from '@auth0/auth0-react'
 
 ReactDOM.render(
-    // {/* nouregy.us.auth0.com  ,  YvdXiOgdHkZZ1zF64YBgmFueTVNLIrDU  */}
 
 
-<Auth0Provider
+
+    <Auth0Provider
     domain="nouregy.us.auth0.com"
     clientId="YvdXiOgdHkZZ1zF64YBgmFueTVNLIrDU"
     redirectUri={window.location.origin}
-    cacheLocation="localstorage"
->
+    cacheLocation='localstorage'
+  >
     <UserProvider>
         <ProductsProvider>
             <FilterProvider>
